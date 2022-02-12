@@ -26,8 +26,11 @@ zombie name, starting probability, ending probability, starting gamestage, max g
 "ending gamestage" - the final gamestage number that this zombie will spawn in. the zombie will not spawn in any later gamestages.
 
 Example:
+
 zombieArlene	        1	    1	  1	    195	  715
+
 zombieArleneFeral	    0.1	  1	  31	  715	  1308
+
 zombieArleneRadiated	0.1	  1	  103	  715	  715
 
 zombieArlene starts spawning at gamestage 1 with spawn probability of 1. 
