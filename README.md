@@ -21,7 +21,7 @@ zombie name, starting probability, ending probability, starting gamestage, max g
 
 "starting gamestage" - the first gamestage number that this zombie will have any chance of spawning in
 
-"max gamestage" -the gamestage number at which this zombie will reach its "ending probability"
+"max gamestage" - the gamestage number at which this zombie will reach its "ending probability"
 
 "ending gamestage" - the final gamestage number that this zombie will spawn in. the zombie will not spawn in any later gamestages.
 
