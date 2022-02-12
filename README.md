@@ -53,17 +53,17 @@ From gamestage 715 through all remaining gamestages, the spawn probability stays
 
 When all rows have been entered for each zombie, skip one row.
 
-Now list all possibile gamestage numbers for the Bloodmoon horde group (feralHordeStageGS) in ascending order, with each gamestage number on each row. All gamestage must match exactly the number of gamestages show in the vanilla entitygroups.xml file for this group, feralHordeStageGS.
+Now list all possibile gamestage numbers for the Bloodmoon horde group (feralHordeStageGS) in ascending order, with each gamestage number on each row. All gamestage must match exactly the number of gamestages shown in the vanilla entitygroups.xml file for this group, feralHordeStageGS.
 
 --------
  Step 3
 --------
 
-Go to the Pythong program code, and near the top, look for where the variable "entitygroup_name" is defined. Ensure it is assigned the name of the entity group, which in this case is feralHordeStageGS.
+Go to the Pythong program code, and near the top, look for where the variable "entitygroup_name" is defined. Ensure it is assigned the name of the entity group, which in this case is feralHordeStageGS. Example:
 
 entitygroup_name = "feralHordeStageGS"
 
-Save a run the Python code. It will generate all the XML for the bloodmoon horde group, and output it to a txt file with the entity group name "feralHordeStageGS" as the filename. Copy and paste the contents of the text file in the game's entitygroups.xml file, in the appropriate location as an xpath <append> statement.
+Save and run the Python code. It will generate all the XML for the bloodmoon horde group and output it to a txt file with the entity group name "feralHordeStageGS" as the filename. Copy and paste the contents of the text file in the game's entitygroups.xml file, in the appropriate location as an xpath <append> statement.
   
 All done.
 
