@@ -13,12 +13,12 @@ Each row in this file will represent spawn information for one zombie - refer to
 
 zombie name, starting probability, ending probability, starting gamestage, max gamestage, ending gamestage
 
-"zombie name" - the name of the zombie, spelled exactly as shown in its entityclass definition
-"starting probability" - the initial probability value this zombie will have as it starts the progression up the gamestages
-"ending probability" - the highest probability value this zombie will attain
-"starting gamestage" - the first gamestage number that this zombie will have any chance of spawning in
-"max gamestage" - the gamestage number at which this zombie will reach its "ending probability"
-"ending gamestage" - the final gamestage number that this zombie will spawn in. the zombie will not spawn in any later gamestages.
+zombie name - the name of the zombie, spelled exactly as shown in its entityclass definition
+starting probability - the initial probability value this zombie will have as it starts the progression up the gamestages
+ending probability - the highest probability value this zombie will attain
+starting gamestage - the first gamestage number that this zombie will have any chance of spawning in
+max gamestage -the gamestage number at which this zombie will reach its "ending probability"
+ending gamestage - the final gamestage number that this zombie will spawn in. the zombie will not spawn in any later gamestages.
 
 Example:
 zombieArlene	        1	    1	  1	    195	  715
